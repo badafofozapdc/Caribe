@@ -15,9 +15,9 @@ from util.writeconfig import WriteConfig
 
 def main():
     stars = requests.get(
-        f"https://api.github.com/repos/badafofozapdc/Caribe2").json()["stargazers_count"]
+        f"https://api.github.com/repos/badafofozapdc/Caribe").json()["stargazers_count"]
     forks = requests.get(
-        f"https://api.github.com/repos/badafofozapdc/Caribe2").json()["forks_count"]
+        f"https://api.github.com/repos/badafofozapdc/Caribe").json()["forks_count"]
 
     logging.basicConfig(
         level="NOTSET",
